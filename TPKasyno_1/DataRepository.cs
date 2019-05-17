@@ -1,0 +1,11 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace TPKasyno_1
+{
+    class DataRepository
+    {
+        private DataContext;
+    }
+}
