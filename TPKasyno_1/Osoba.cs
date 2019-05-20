@@ -4,9 +4,10 @@ using System.Text;
 
 namespace TPKasyno_1
 {
-    class Osoba
+    public class Osoba
     {
-       string imie { get; set; }
-       string nazwisko { get; set; }
+        public int Id { get; set; }
+        public string Imie { get; set; }
+        public string Nazwisko { get; set; }
     }
 }

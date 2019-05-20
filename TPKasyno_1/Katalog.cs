@@ -4,10 +4,9 @@ using System.Text;
 
 namespace TPKasyno_1
 {
-    class Katalog
+    public class Katalog
     {
-        public int numerStolu { get; set; } //klucz
-        public string nazwaGry { get; set; }
-        public string opisGry { get; set; }
+        public string NazwaGry { get; set; }
+        public string OpisGry { get; set; }
     }
 }

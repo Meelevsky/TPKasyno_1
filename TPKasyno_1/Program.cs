@@ -6,6 +6,9 @@ namespace TPKasyno_1
     {
         static void Main(string[] args)
         {
+            //var dr = new DataRepository(new WypelnianieStalymi());
+            //var a = dr.GetKatalog("dupa");
+
             Console.WriteLine("Hello World!");
         }
     }

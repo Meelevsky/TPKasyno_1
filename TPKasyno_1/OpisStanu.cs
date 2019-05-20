@@ -4,7 +4,10 @@ using System.Text;
 
 namespace TPKasyno_1
 {
-    class OpisStanu
+    public class OpisStanu
     {
+        public int Id { get; set; }
+        public int IloscGier { get; set; }
+        IEnumerable<int> NumerStolu { get; set; }
     }
 }

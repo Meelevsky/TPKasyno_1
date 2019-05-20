@@ -6,7 +6,6 @@ namespace TPKasyno_1
 {
     class Wykaz
     {
-        string imie { get; set; }
-        string nazwisko { get; set; }
+        IEnumerable<Gracz> Gracze { get; set; }
     }
 }

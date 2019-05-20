@@ -4,8 +4,8 @@ using System.Text;
 
 namespace TPKasyno_1
 {
-    class Gracz : Osoba
+    public class Gracz : Osoba
     {
-        public int PESEL { get; set; }
+        public string PESEL { get; set; }
     }
 }
