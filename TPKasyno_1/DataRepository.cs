@@ -24,42 +24,43 @@ namespace TPKasyno_1
 
         public void AddGracz(Gracz gracz)
         {
+            kontekst.Osoby.Add(gracz);
             throw new NotImplementedException();
         }
 
         public void AddKatalog(Katalog katalog)
         {
-            throw new NotImplementedException();
+            kontekst.Katalog.Add(katalog.NazwaGry, katalog);
         }
 
         public void AddStan(OpisStanu stan)
         {
-            throw new NotImplementedException();
+            kontekst.OpisyStanow.Add(stan);
         }
 
         public void AddZdarzenie(Zdarzenie zdarzenie)
         {
-            throw new NotImplementedException();
+            kontekst.Zdarzenia.Add(zdarzenie);
         }
 
         public void DeleteGracz(int Id)
         {
-            throw new NotImplementedException();
+            kontekst.Osoby.Remove(kontekst.Osoby.First(x => x.Id == Id));
         }
 
         public void DeleteKatalog(string Id)
         {
-            throw new NotImplementedException();
+            kontekst.Katalog.Remove(Id);
         }
 
         public void DeleteStan(int Id)
         {
-            throw new NotImplementedException();
+            kontekst.OpisyStanow.Remove(kontekst.OpisyStanow.First(x => x.Id == Id));
         }
 
         public void DeleteZdarzenie(int Id)
         {
-            throw new NotImplementedException();
+            kontekst.Zdarzenia.Remove(kontekst.Zdarzenia.First(x => x.Id == Id));
         }
 
         public Gracz[] GetAllGracz()
@@ -104,6 +105,7 @@ namespace TPKasyno_1
 
         public Gracz UpdateGracz(Gracz gracz)
         {
+            
             throw new NotImplementedException();
         }
 
