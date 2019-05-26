@@ -25,7 +25,6 @@ namespace TPKasyno_1
         public void AddGracz(Gracz gracz)
         {
             kontekst.Osoby.Add(gracz);
-            throw new NotImplementedException();
         }
 
         public void AddKatalog(Katalog katalog)

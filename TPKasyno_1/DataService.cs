@@ -4,14 +4,36 @@ using System.Text;
 
 namespace TPKasyno_1
 {
-    class DataService
+    class DataService : IDataService
     {
-        IEnumerable<Katalog> WszystkiePozycjeKatalogu;
-        IEnumerable<Zdarzenie> ZdarzeniaDlaElementuWykazu;
-        IEnumerable<Zdarzenie> ZdarzeniaPomiedzyDatami;
-        Zdarzenie DodajZdarzenie;
-        IEnumerable<Katalog> WyswietlKatalog;
-        IEnumerable<Zdarzenie> WyswietlPowiazaneZdarzenia;
+        public Zdarzenie DodajZdarzenie()
+        {
+            throw new NotImplementedException();
+        }
 
+        public IEnumerable<Katalog> WszystkiePozycjeKatalogu()
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Katalog> WyswietlKatalog()
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Zdarzenie> WyswietlPowiazaneZdarzenia()
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Zdarzenie> ZdarzeniaDlaElementuWykazu()
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Zdarzenie> ZdarzeniaPomiedzyDatami()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
